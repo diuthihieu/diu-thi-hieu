@@ -1,0 +1,3 @@
+.zsh_history
+*.lock
+**/__pycache__

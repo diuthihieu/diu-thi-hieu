@@ -1,0 +1,30 @@
+{
+    "name": "codespace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "sh .devcontainer/post-create.sh",
+    "containerEnv": {
+        "UV_LINK_MODE": "copy"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Default Dark Modern"
+            },
+            "extensions": [
+                "chekweitan.compare-view",
+                "eriklynd.json-tools",
+                "mechatroner.rainbow-csv",
+                "medo64.render-crlf",
+                "ms-azuretools.vscode-docker",
+                "ms-python.black-formatter",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "tamasfe.even-better-toml",
+                "usernamehw.errorlens"
+            ]
+        }
+    }
+}

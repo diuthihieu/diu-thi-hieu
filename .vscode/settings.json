@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.rulers": [
+            88
+        ]
+    },
+    "files.exclude": {
+        "python/**/__pycache__": true,
+        "python/**/.pytest_cache": true,
+        "python/**/.venv": true,
+        "python/**/*.lock": true,
+        ".zsh_history": true,
+    },
+}
